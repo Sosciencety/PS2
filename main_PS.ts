@@ -2,7 +2,7 @@
 //% color="#31C7D5" weight=10 icon="\uf1d1"
  namespace ps2controller {
 
-    let chipSelect = DigitalPin.P6
+    let chipSelect = DigitalPin.P12
     pins.digitalWritePin(chipSelect, 1)
 
     pins.spiPins(DigitalPin.P9, DigitalPin.P8, DigitalPin.P7)
